@@ -3,7 +3,7 @@ Spree::Admin::OrdersController.class_eval do
 
   private
     def not_load_order_action
-      [:index, :new]
+      [:index, :new, :bulk_action]
     end
 
     def check_authorization
