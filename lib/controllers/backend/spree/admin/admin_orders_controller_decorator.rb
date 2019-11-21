@@ -3,9 +3,9 @@ Spree::Admin::OrdersController.class_eval do
 
   private
     def load_order_action
-      [:edit, :update, :cancel, :resume, :approve, :resend, :open_adjustments, :close_adjustments, :cart]
+      [:edit, :update, :cancel, :resume, :approve, :resend, :open_adjustments, :close_adjustments, :cart, :bulk_action]
     end
-  
+
     def check_authorization
       action = params[:action].to_sym
       if load_order_action.include?(action)

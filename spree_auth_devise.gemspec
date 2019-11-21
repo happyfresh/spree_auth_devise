@@ -19,9 +19,10 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  spree_version = '~> 3.0.0'
+  spree_version = '~> 2.3.4'
 
-  s.add_dependency 'devise', '~> 3.4.1'
+  # s.add_dependency 'devise', '~> 3.4.1'
+  s.add_dependency 'devise', '~> 3.5.10'
   s.add_dependency 'devise-encryptable', '0.1.2'
   s.add_dependency 'json'
   s.add_dependency 'multi_json'
