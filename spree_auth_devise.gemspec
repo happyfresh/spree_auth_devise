@@ -21,8 +21,7 @@ Gem::Specification.new do |s|
 
   spree_version = '~> 2.3.4'
 
-  # s.add_dependency 'devise', '~> 3.4.1'
-  s.add_dependency 'devise', '~> 3.5.10'
+  s.add_dependency 'devise', '~> 4.7'
   s.add_dependency 'devise-encryptable', '0.1.2'
   s.add_dependency 'json'
   s.add_dependency 'multi_json'
